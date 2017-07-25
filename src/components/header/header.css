@@ -1,0 +1,17 @@
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.bar {
+  background-color: #FFC10D;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 50px;
+  font-weight: bold;
+  text-shadow: 0 1px 8px #333;
+  letter-spacing: 1px;
+}

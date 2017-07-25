@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-container {
+  margin-bottom: 80px;
+}
+
+body {
+  background-color: #232323;
+  font-family: 'Roboto', 'helvetica'
+}
