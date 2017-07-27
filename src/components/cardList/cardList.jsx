@@ -25,7 +25,6 @@ export default class CardList extends Component {
     
     axios(URL)
       .then( response => {
-        console.log(response.data.articles)
         this.setState({ ...this.state, data: response.data.articles, loaded: true })
 
       }).catch( ex  => {
