@@ -3,12 +3,12 @@ var cacheName = 'PWA-final-1';
 
 var filesToCache = [
   '/',
-  '/index.html',
-  '/bundle.js',
-  '/assets/imagens/icon-32x32.png',
-  '/assets/imagens/icon-128x128.png',
-  '/assets/imagens/icon-256x256.png',
-  '/assets/imagens/favicon.png'
+  'index.html',
+  'bundle.js',
+  'assets/imagens/icon-32x32.png',
+  'assets/imagens/icon-128x128.png',
+  'assets/imagens/icon-256x256.png',
+  'assets/imagens/favicon.png'
 ];
 
 self.addEventListener('install', function(e) {
